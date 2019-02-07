@@ -1,0 +1,13 @@
+<web-app>
+    <display-name>Calculate age</display-name>
+
+    <servlet>
+        <servlet-name>calculateAge</servlet-name>
+        <servlet-class>MyAge</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>calculateAge</servlet-name>
+        <url-pattern>/myAge</url-pattern>
+    </servlet-mapping>
+</web-app>
